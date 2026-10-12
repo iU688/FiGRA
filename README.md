@@ -18,7 +18,7 @@ The tests and smoke example use a synthetic interface fixture. They check softwa
 
 ## External backbone
 
-Obtain GraphMLP and its 243-frame checkpoint from the [official repository](https://github.com/Vegetebird/GraphMLP). Construct and load that model separately. The expected pre-head interface follows upstream commit `befa9f069d08756268ee872098d6a80befb1ffb1` in `model/graphmlp.py`.
+Obtain GraphMLP and its 243-frame checkpoint from the [official repository](https://github.com/Vegetebird/GraphMLP). Construct and load that model separately. The expected pre-head interface is defined in the upstream `model/graphmlp.py` file.
 
 ```python
 from figra import FiGRA, make_optimizer, train_step
