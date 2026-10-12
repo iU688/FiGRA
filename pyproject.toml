@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "figra-modules"
+version = "1.0.0"
+description = "Feature adaptation and geometric refinement for monocular 3D pose lifting"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.1"]
+license = {file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+include = ["figra*"]
