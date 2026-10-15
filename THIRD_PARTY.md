@@ -8,7 +8,7 @@ Install its official source as a separate dependency. The adapter wrapper uses t
 
 ## Implementation dependencies
 
-PyTorch supplies tensor and differentiation operations under its own [license](https://github.com/pytorch/pytorch/blob/main/LICENSE). Backbone-specific dependencies follow GraphMLP's requirements. The attention, graph propagation, LayerNorm and GELU references are in REFERENCES.bib. The module composition and adaptation procedure should not be confused with independent invention of these operators.
+PyTorch supplies tensor and differentiation operations under its own [license](https://github.com/pytorch/pytorch/blob/main/LICENSE). Backbone-specific dependencies follow GraphMLP's requirements. The formal attention and graph-propagation publications are listed in REFERENCES.bib. LayerNorm and GELU are provided by PyTorch. The module composition and adaptation procedure should not be confused with independent invention of these operators.
 
 ## Data and weights
 

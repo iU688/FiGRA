@@ -9,7 +9,8 @@ Obtain assets from the original providers and accept their access terms. The cod
 | 3DPW | Source adaptation and source validation | https://virtualhumans.mpi-inf.mpg.de/3DPW/ |
 | HumanEva-I | First target dataset, single-person evaluation | http://humaneva.is.tue.mpg.de/ |
 | MuPoTS-3D | Second target dataset, multi-person tracks | https://vcai.mpi-inf.mpg.de/projects/SingleShotMultiPerson/ |
-| CMU Panoptic | Fixed-frontend indoor replay | https://domedb.perception.cs.cmu.edu/ |
+| Pexels video 6980765 | Ordinary-video indoor qualitative example | https://www.pexels.com/video/woman-doing-squats-in-the-gym-6980765/ |
+| Pexels video 9968731 | Ordinary-video outdoor qualitative example | https://www.pexels.com/video/back-view-footage-of-man-walking-in-the-park-9968731/ |
 
 MPI-INF-3DHP source training uses S1–S6 and source validation S7–S8. 3DPW uses its train and validation splits. Target datasets are not source-training inputs. This is distinct from the 3DPW challenge evaluation protocol.
 

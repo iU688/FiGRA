@@ -36,13 +36,13 @@ FAM attaches to the input of the external `.head`. Use separate model instances 
 2. Restore that FAM state into `arm="figra", stage="stage2"` with an identically initialized pretrained backbone.
 3. Optimize only KGR. The pretrained backbone and FAM remain fixed.
 
-Stage 1 updates 67,553 parameters and stage 2 updates 17,347. The adaptation budget counts their union, 84,900. `stage="joint"` exposes simultaneous FAM/KGR updates for a continuation control; initialize that control from the same selected FAM checkpoint. It is not a from-scratch joint-training result.
+Stage 1 updates 67,553 parameters and stage 2 updates 17,347. The adaptation budget counts their union, 84,900.
 
 See [TRAINING.md](TRAINING.md) for losses, source selection and checkpoint handoff, and [DATASETS.md](DATASETS.md) for input shapes and official data sources.
 
 ## Release scope
 
-This repository provides the FAM and KGR implementation, an external-backbone wrapper, source losses and perturbations, optimization helpers and synthetic tests. It does not include the GraphMLP implementation, comparison-method implementations, datasets, weights, raw predictions or the complete data-preparation and benchmark-evaluation pipeline. Numerical evidence accompanying the manuscript is provided separately in its supplementary material.
+This repository provides the FAM and KGR implementation, an external-backbone wrapper, source losses and perturbations, optimization helpers and synthetic tests. It does not include the GraphMLP implementation, comparison-method implementations, datasets, weight files, raw predictions or the complete data-preparation and benchmark-evaluation pipeline. Official dataset and pretrained-weight download instructions are linked in [DATASETS.md](DATASETS.md). The manuscript contains the reported numerical and qualitative results.
 
 No publication venue or acceptance is claimed. Cite the underlying GraphMLP and dataset publications in [REFERENCES.bib](REFERENCES.bib). Dependency attribution is in [THIRD_PARTY.md](THIRD_PARTY.md).
 

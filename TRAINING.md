@@ -36,8 +36,8 @@ Load only trusted checkpoint files. Save the model dimensions, source-selection 
 
 Stage 1 minimizes root-relative position loss plus 0.5 times the bone-scaled position loss and 0.01 times the mean absolute FAM gate. The FAM query offset and gate consume constant zero vectors, not visibility or cross-person signals.
 
-Stage 2 uses position loss plus 0.5 times bone-scaled loss, 0.05 times the soft 150 mm threshold loss and 0.01 times the coordinate-residual RMS. The helpers retain the original numerical RMS floor. Source perturbations are applied with a CPU generator. AdamW defaults are learning rate 0.0002 and weight decay 0.0001. The `joint` continuation uses this same objective but updates both FAM and KGR while retaining the backbone.
+Stage 2 uses position loss plus 0.5 times bone-scaled loss, 0.05 times the soft 150 mm threshold loss and 0.01 times the coordinate-residual RMS. The helpers retain the original numerical RMS floor. Source perturbations are applied with a CPU generator. AdamW defaults are learning rate 0.0002 and weight decay 0.0001.
 
 The recorded stage-2 protocol uses seeds 42, 123 and 2026, batch size 32, at most 30 epochs, 100,000 source windows per epoch and patience 5. MPI-derived and 3DPW source sampling is 0.7/0.3. Select using the sum of clean and fixed-corrupted source PCK and AUC, subject to clean PCK/AUC being no more than 0.50 percentage points below the frozen-FAM reference and corrupted PCK/AUC improving by at least 0.25 points. The caller must implement the validation and eligibility rule; `train_step` alone does not perform selection.
 
-Synthetic tests verify parameter counts, freezing, gradients, save/restore and person independence. They do not reproduce the manuscript benchmarks. Obtain the original assets and follow the manuscript and supplement for complete experimental settings.
+Synthetic tests verify parameter counts, freezing, gradients, save/restore and person independence. They do not reproduce the manuscript benchmarks. Obtain the original assets and follow the manuscript for the reported experimental settings.
