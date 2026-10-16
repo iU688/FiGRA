@@ -1,0 +1,18 @@
+{
+  "Figure_4_gains.csv": "cb0dde241073499f0a171f7f8e89f860130c3a775e14c438a9a73635131d520c",
+  "Figure_4_seed_values.csv": "2cfe7b60a14b0316d089f0fef165fbbf046b4dbcf7a69fee06fa87d672688083",
+  "Figure_5_case_index.csv": "93589a44c636641e5503a878c3ff430407e76f56d3f22accbe23baafda575343",
+  "Figure_5_displayed_predictions.csv": "970e0697160cffdcee9ad7033ca54ecc49541bc8a611a28fa7bd7d51363eec1b",
+  "Figure_6_coordinate_jitter.csv": "4dfb4b3295f483e471152f0403e549e09b6b7e2f4681083639625db85b3928f6",
+  "Figure_7_budget.csv": "84dbf9663db32435d56be07e3d6bdec25ed62910232ee86133d0b3c292fd77bc",
+  "Figure_7_seed_values.csv": "356f9a3994ee22739b64faef542b0808f6fa1118d23658bfd4c16ace9c7a88ea",
+  "Figure_8_case_index.csv": "9b0e24a22e503112652097c3cb49d4d1fdd62c164072b8cdfe0d0c9eb475e3f0",
+  "Figure_8_displayed_predictions.csv": "41d56752dd2be5e09559cfb9fc17b86246c9aa70759e99d82a75e352f27e5be2",
+  "README.txt": "831e98d55f44ff190bb168b4bde92ed43dd19bae7208da9214c33a089c7408c8",
+  "RESULTS_INDEX.json": "7a47ec61a0e372ba1a8f3b98bac2ac19ebf8839d88ec1ab0e5632601c270669e",
+  "Table_1_seed_values.csv": "ed50f1c1b849e1c0ae8b6bc925cd04acefde4ab62d62943ff8d033e1be379292",
+  "Table_1_summary.csv": "c460fc4a27c4c164152678046f714ca7ece6cdcc7b595a9f112e83c19c10503a",
+  "Table_2_seed_values.csv": "d4f8d00cb9f5c8c05bdc5b9c2959a06dba3fb48468b28371afc5129d4a74e886",
+  "Table_2_summary.csv": "0003db4a46b252d2cfd18aace033b333c4e8389c4058e7fb1f30a4697ec0bfe1",
+  "verify_results.py": "f9d750704bdcd43f7382a25decd127d7e7f7bb5491a2197c31ebeb572dd60474"
+}

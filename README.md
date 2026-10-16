@@ -42,9 +42,13 @@ See [TRAINING.md](TRAINING.md) for losses, source selection and checkpoint hando
 
 ## Release scope
 
-This repository provides the FAM and KGR implementation, an external-backbone wrapper, source losses and perturbations, optimization helpers and synthetic tests. It does not include the GraphMLP implementation, comparison-method implementations, datasets, weight files, raw predictions or the complete data-preparation and benchmark-evaluation pipeline. Official dataset and pretrained-weight download instructions are linked in [DATASETS.md](DATASETS.md). The manuscript contains the reported numerical and qualitative results.
+This repository provides the FAM and KGR implementation, an external-backbone wrapper, source losses and perturbations, optimization helpers and synthetic tests. It does not include the GraphMLP implementation, comparison-method implementations, datasets, weight files, full raw-prediction archives or the complete data-preparation and benchmark-evaluation pipeline. Official dataset and pretrained-weight download instructions are linked in [DATASETS.md](DATASETS.md). The reported table values, plotted curve points, seed-level values underlying the reported means and error bars, and displayed qualitative model coordinates are available in [the manuscript result-data release](https://github.com/iU688/FiGRA/releases/tag/paper-results-20261016).
 
 No publication venue or acceptance is claimed. Cite the underlying GraphMLP and dataset publications in [REFERENCES.bib](REFERENCES.bib). Dependency attribution is in [THIRD_PARTY.md](THIRD_PARTY.md).
+
+## Manuscript result data
+
+Download [FiGRA_paper_results_20261016.zip](https://github.com/iU688/FiGRA/releases/download/paper-results-20261016/FiGRA_paper_results_20261016.zip), or inspect the CSV files in [results/paper-results-20261016](results/paper-results-20261016). The data cover Tables 1–2 and Figures 4–8 only. The release README describes aggregation, coordinate conventions and upstream-data access. It does not include unused historical experiments or claim to provide a complete evaluation pipeline.
 
 ## License
 

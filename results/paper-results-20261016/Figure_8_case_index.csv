@@ -1,0 +1,5 @@
+panel,scene,time_order,frame_index_zero_based,track_index,time_seconds
+a,gym_squat,1,121,0,4.033333333333333
+a,gym_squat,2,359,0,11.966666666666667
+b,outdoor_walk,1,121,3,5.046708333333333
+b,outdoor_walk,2,238,3,9.926583333333333

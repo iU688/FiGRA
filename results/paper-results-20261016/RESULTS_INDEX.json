@@ -1,0 +1,39 @@
+{
+  "manuscript": "FiGRA Feature Geometry Residual Adaptation for Monocular 3D Pose Lifting under Observation Shift",
+  "version": "paper-results-20261016",
+  "files_and_rows": {
+    "Table_1_summary.csv": 8,
+    "Table_1_seed_values.csv": 88,
+    "Table_2_summary.csv": 5,
+    "Table_2_seed_values.csv": 52,
+    "Figure_4_gains.csv": 46,
+    "Figure_4_seed_values.csv": 138,
+    "Figure_6_coordinate_jitter.csv": 54,
+    "Figure_7_budget.csv": 80,
+    "Figure_7_seed_values.csv": 240,
+    "Figure_5_case_index.csv": 6,
+    "Figure_5_displayed_predictions.csv": 204,
+    "Figure_8_case_index.csv": 4,
+    "Figure_8_displayed_predictions.csv": 136
+  },
+  "scope": "Tables 1–2 and Figures 4–8 only. Figures 1–3 are explanatory diagrams.",
+  "metrics": "PCK and AUC in percent; gains in percentage points; sample standard deviations use ddof=1.",
+  "source_sha256": {
+    "Dataset_breakdown.json": "4c602371cc667282f42199b8383a7c78676fa859415abbfd0934cd8e67d9de30",
+    "ALL_RESULTS.json": "56b4fb67e4b73cc4895642bb70861d0d5c2f4978a12add8983124763c3fc9c00",
+    "Dataset_gain_plot.json": "2cf16e756d88ddf1fcbae037e71ac3d5fbfbf074000ef5e474c21fc23419028d",
+    "Perturbation_plot_points.json": "0cf3e329637eeb5cdd749c35d54a24b4efdb5c8ebcde0c2a0fefb918575b3f84",
+    "Budget_comparison.json": "17b99740cf87d13ad61411fa061199704116f4d643b2a4b6d417c11d3fb94731",
+    "Budget_runs.json": "6936ed14f862b729df042f8642719cc800fce404d0cdebff2c1c81efac446010",
+    "Qualitative_current_cases.json": "5074df62d4ec68e6d73c139e0abf691d00365b251676e5a879952897b80b2017",
+    "FIGURE8_PROVENANCE.json": "7f8b6d420620952af0522da98402140b37f64c87bbb45ff2168cf9397b3179e1",
+    "gym_squat__GraphMLP.json": "50692eaf1c2b5a76cbba2825b08f86b97ae98fb7b0581c768e81c224812b187f",
+    "gym_squat__GraphMLP.npz": "783bd48364b0a0af461f95ef8659ad75e2d5be055855de0b3a57c937d1fd3ecb",
+    "gym_squat__FiGRA.json": "432457b5691e3768f567859b70732d2b7f6374117128582eee27649986d3ad4d",
+    "gym_squat__FiGRA.npz": "8e66ac4101511ac7fc29336247421b9ff32739472d061952a4279ee88557e79e",
+    "outdoor_walk__GraphMLP.json": "409069052de9b3d2ba34277f148c349061c9a2a6dd35ecab3c5cfaed10f82f5e",
+    "outdoor_walk__GraphMLP.npz": "7424234198f63a034312ff0779b52a9aad49f3f87706dabc26b4386d2b09ac40",
+    "outdoor_walk__FiGRA.json": "89fecb2eb6360092d30ef831e7ebc3ef28a57eecd581d80c8463622109cb5603",
+    "outdoor_walk__FiGRA.npz": "c5bd3f199bfc99205661f250cd5f0e937349cf4c201e3a02276233ccd1b7340d"
+  }
+}
